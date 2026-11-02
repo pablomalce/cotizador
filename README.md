@@ -12,7 +12,7 @@ Built in September 2020 (two commits, 3 and 5 September) while learning React ho
 - Form state is held in a single `useState` object; submitting with an empty field shows a "all fields are required" error.
 - Styling uses `@emotion/styled` components.
 
-What it does not do: the quote calculation is not implemented. `src/components/Formulario.js` only contains the planned rules as comments (a 3% discount per year of age, a surcharge by car origin, and a surcharge by plan). The plan radio buttons also have attribute typos (`nme` and `check` instead of `name` and `checked`), so the plan value is never set and the form cannot pass validation as committed.
+What it does not do: the quote calculation is not implemented. `src/components/Formulario.js` only contains the planned rules as comments (a 3% discount per year of age, a surcharge by car origin, and a surcharge by plan). The plan radio buttons also have attribute typos (`nme` and `check` instead of `name` and `checked`), and the "Completo" radio button has `value="basico"` instead of `"completo"`, so the plan value is never set and the form cannot pass validation as committed.
 
 ## Stack
 
